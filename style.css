@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #6cace4;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: "Jaro";
+}
+
+.yellow {
+  color: #ffb81c;
+}
+
+body {
+  background-color: #222831;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+main {
+  margin-top: 50px;
+  padding: 0 5% 200px;
+  color: white;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* grid-auto-rows: 200px; */
+  grid-auto-rows: minmax(100px, auto);
+
+
+  /* grid-template-columns: repeat(5, 1fr 2fr); */
+  text-align: center;
+}
+.box1 {
+  text-align: center;
+  /* padding: 10px; */
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.box1 ul {
+  font-family: "Freeman";
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
+  
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* padding-inline-start: 0; */
+  /* margin-block: 0; */
+  /* height: 100%; */
+}
+
+.box1 ul li {
+  display: block;
+  padding: 5px 0;
+}
+
+.p-title {
+  font-size: 32px;
+  padding-bottom: 40px;
+  font-family: "Jaro";
+}
