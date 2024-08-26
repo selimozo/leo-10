@@ -21,28 +21,30 @@ header {
 }
 
 body {
-  background-color: #222831;
+  /* background-color: #222831; */
   font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   position: relative;
   min-height: 100vh;
+  background: rgb(165, 0, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 0, 68, 1) 0%,
+    rgba(0, 77, 152, 1) 100%
+  );
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(23, 23, 51), 0 0 0.2em black;
 }
 main {
-  margin-top: 10px;
-  padding: 0 5% 200px;
+  padding: 0 5% 100px;
   color: white;
+  background-color: rgba(0, 0, 0, 0.103);
 }
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-auto-rows: 200px; */
   grid-auto-rows: minmax(100px, auto);
-
-  /* grid-template-columns: repeat(5, 1fr 2fr); */
   text-align: center;
 }
 .box1 {
-  /* text-align: center; */
-  /* padding: 10px; */
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -53,12 +55,7 @@ main {
   justify-content: space-evenly;
   grid-template-columns: 1fr 1fr;
   font-size: 24px;
-
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* padding-inline-start: 0; */
-  /* margin-block: 0; */
-  /* height: 100%; */
+  padding-bottom: 12px;
 }
 
 .box1 ul li {
@@ -70,6 +67,7 @@ main {
   font-size: 32px;
   padding: 50px 0;
   font-family: "Jaro";
+  color: lightgreen;
 }
 
 .season-1 {
@@ -77,28 +75,58 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0 0 30px 0;
 }
 
 .season-1 p {
   padding: 5px 0;
-  color: #6cace4;
+  color: #078bff;
   font-family: "Freeman";
+  font-size: 20px;
 }
 
 .season-1 p:nth-child(1) {
-  color: rgb(0, 255, 162);
+  color: rgb(25, 255, 171);
   font-size: 30px;
+}
+
+.season-1 p:nth-child(4) {
+  color: rgb(248, 81, 81);
 }
 
 .season-2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 .exp {
   text-align: left;
   color: #ffb81c;
   line-height: 1.5;
   text-indent: 1em;
-} 
+}
+
+.quotes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.q-span {
+  font-family: "Freeman";
+  /* font-style: italic; */
+}
+
+.quote {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  font-size: 18px;
+}
