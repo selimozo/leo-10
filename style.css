@@ -7,6 +7,7 @@
 
 header {
   background-color: #6cace4;
+  background: -webkit-linear-gradient(top, rgb(122, 180, 230) 0%, rgb(108, 172, 228) 61%, rgb(97, 154, 205) 100%);
   color: white;
   height: 100px;
   display: flex;
@@ -43,6 +44,8 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
   text-align: center;
+  letter-spacing: 0.5px;
+  text-wrap: pretty;
 }
 .box1 {
   grid-column-start: 1;
@@ -61,6 +64,7 @@ main {
 .box1 ul li {
   display: block;
   padding: 4px 0;
+  
 }
 
 .p-title {
@@ -68,6 +72,7 @@ main {
   padding: 50px 0;
   font-family: "Jaro";
   color: rgb(219, 0, 48);
+  
 }
 
 .season-1 {
@@ -81,12 +86,12 @@ main {
   padding: 5px 0;
   color: #078bff;
   font-family: "Freeman";
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .season-1 p:nth-child(1) {
   color: rgb(25, 255, 171);
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .season-1 p:nth-child(4) {
@@ -118,9 +123,10 @@ main {
 
 .q-span {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   font-family: "Freeman";
   /* font-style: italic; */
+  letter-spacing: 1.5px;
 }
 
 .quote {
@@ -133,7 +139,7 @@ main {
   font-size: 18px;
 }
 
-@media (width <= 450px) {
+@media (width <= 850px) {
   .season-1 {
     grid-column-start: 1;
     grid-column-end: 3;
