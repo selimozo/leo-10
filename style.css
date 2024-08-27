@@ -41,7 +41,7 @@ main {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
   grid-auto-rows: minmax(100px, auto);
   text-align: center;
   letter-spacing: 0.5px;
@@ -127,6 +127,7 @@ main {
   font-family: "Freeman";
   /* font-style: italic; */
   letter-spacing: 1.5px;
+  padding-block-start: 3px;
 }
 
 .quote {
@@ -138,6 +139,17 @@ main {
   padding: 50px;
   font-size: 18px;
 }
+
+.br {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 1em;
+}
+
 
 @media (width <= 850px) {
   .season-1 {
