@@ -130,6 +130,7 @@ main {
   /* font-style: italic; */
   letter-spacing: 1.5px;
   padding-block-start: 3px;
+  color: antiquewhite;
 }
 
 .quote {
@@ -138,8 +139,8 @@ main {
   text-align: center;
   width: 50%;
   margin: auto;
-  padding: 40px;
-  font-size: 18px;
+  padding: 45px;
+  font-size: 20px;
 }
 
 .br {
