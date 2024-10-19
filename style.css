@@ -110,7 +110,7 @@ main {
   text-align: left;
   color: #ffb81c;
   line-height: 1.5;
-  text-indent: 1em;
+  /* text-indent: 1em; */
   /* height:min(250px, 100%); */
   overflow: auto;
 }
@@ -152,10 +152,6 @@ main {
   margin-bottom: 0.5em;
 }
 
-.tab {
-  display: inline-block;
-  margin-left: 1em;
-}
 
 
 @media (width <= 850px) {
@@ -185,9 +181,4 @@ main {
   .box1 ul {
     font-size: 18px;
   }
-  
-.tab {
-  display: inline-block;
-  margin-left: 0.5em;
-}
 }
