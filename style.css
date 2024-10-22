@@ -166,8 +166,7 @@ main {
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Freeman"
 }
 
 .starter-item {
