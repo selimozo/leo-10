@@ -38,8 +38,8 @@ body {
     90deg,
     rgba(165, 0, 68, 1) 0%,
     rgba(0, 77, 152, 1) 100%
-  );
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(23, 23, 51), 0 0 0.2em black;
+  );  
+  text-shadow: 0.6px 0.6px 0px black, 0 0 1em rgb(23, 23, 51), 0 0 0.2em black;
 }
 main {
   padding: 0 100px 20px;
@@ -78,7 +78,7 @@ main {
   font-size: 32px;
   padding: 50px 0;
   font-family: "Jaro";
-  color: rgb(170, 236, 91);
+  color: #FFFFFF;
 }
 
 .season-1 {
@@ -92,7 +92,7 @@ main {
 
 .season-1 p {
   padding: 5px 0;
-  color: #078bff;
+  color: rgb(53, 207, 42);
   font-family: "Freeman";
   font-size: 22px;
 }
@@ -103,7 +103,7 @@ main {
 }
 
 .season-1 p:nth-child(4) {
-  color: rgb(248, 81, 81);
+  color:#6cace4;
 }
 
 .season-2 {
