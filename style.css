@@ -213,6 +213,10 @@ footer {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.wc22 {
+  font-size: large;
+  color: white;
+}
 @media (width <= 850px) {
   main {
     padding: 0 4% 20px;
