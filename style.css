@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&family=Jaro:opsz@6..72&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 * {
   margin: 0;
@@ -84,7 +84,7 @@ main {
   font-size: 32px;
   padding: 50px 0;
   font-family: "Jaro";
-  
+
   color: #ffffff;
 }
 
@@ -136,7 +136,6 @@ main {
   padding-top: 50px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-
 }
 
 .q-span {
@@ -173,7 +172,7 @@ main {
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
-  font-family: "PT Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .starter-item {
@@ -191,6 +190,8 @@ main {
 .starter-item:nth-child(1) {
   font-size: 30px;
   color: gold;
+  text-shadow: 1.6px 1.6px 0.5px black, 1px 0 1em rgb(23, 23, 51),
+    0 0 0.3em black;
 }
 
 #more {
@@ -226,6 +227,18 @@ footer {
   font-size: large;
   color: white;
 }
+#myBtn {
+  font-family: "PT Sans", sans-serif;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+}
+#myBtn:hover {
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  background-color: #f7b5cd;
+}
+
 @media (width <= 850px) {
   main {
     padding: 0 4% 20px;
