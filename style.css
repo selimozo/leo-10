@@ -57,6 +57,7 @@ main {
   text-align: center;
   letter-spacing: 0.5px;
   text-wrap: pretty;
+  
 }
 .box1 {
   grid-column-start: 1;
@@ -70,9 +71,10 @@ main {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 1fr 1fr;
-  font-size: 24px;
+  font-size: 22px;
   padding-bottom: 18px;
   grid-auto-flow: dense;
+  font-weight: 600;
 }
 
 .box1 ul li {
@@ -81,11 +83,11 @@ main {
 }
 
 .p-title {
-  font-size: 32px;
-  padding: 50px 0;
-  font-family: "Jaro";
-
+  font-size: 26px;
+  padding: 30px 0;
+  font-family: "Freeman";
   color: #ffffff;
+  font-weight: 500;
 }
 
 .season-1 {
@@ -98,8 +100,8 @@ main {
 
 .season-1 p {
   padding: 5px 0;
-  color: rgb(53, 207, 42);
   font-family: "Freeman";
+  font-weight: 600;
   font-size: 22px;
 }
 
@@ -109,14 +111,14 @@ main {
 }
 
 .season-1 p:nth-child(4) {
-  color: #6cace4;
+  color: #F7B5CD;
 }
 
 .season-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 10px;
+  padding: 30px 10px;
 }
 .exp {
   text-align: left;
@@ -136,6 +138,7 @@ main {
   padding-top: 50px;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .q-span {
@@ -145,7 +148,8 @@ main {
   /* font-style: italic; */
   letter-spacing: 1.5px;
   padding-block-start: 8px;
-  color: #a4cfff;
+  font-weight: 500;
+  /* color: #F7B5CD; */
 }
 
 .quote {
@@ -155,8 +159,9 @@ main {
   width: 50%;
   margin: auto;
   padding: 25px;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .br {
@@ -173,6 +178,7 @@ main {
   align-items: center;
   /* flex-wrap: wrap; */
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 .starter-item {
@@ -230,13 +236,12 @@ footer {
 #myBtn {
   font-family: "PT Sans", sans-serif;
   margin-top: 10px;
-  padding: 5px;
+  padding: 7px;
   border-radius: 15px;
+  font-weight: bold;
 }
 #myBtn:hover {
   cursor: pointer;
-  transition: all 0.5s ease-out;
-  background-color: #f7b5cd;
 }
 
 @media (width <= 850px) {
